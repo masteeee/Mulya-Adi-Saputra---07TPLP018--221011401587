@@ -4,13 +4,8 @@
 	include_once("header.php");
 	include_once('Database/connect.php');
 	include_once("session.php");
-	
-	// Function to translate text
-	function t($key) {
-	    global $lang;
-	    return isset($lang[$key]) ? $lang[$key] : $key;
-	}
-	
+	include_once("includes/language_helper.php");
+
 	$q = mysqli_query($con, "SELECT * FROM temp");
 	$im = "";
 	$nm = "";
