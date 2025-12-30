@@ -10,7 +10,7 @@ require_once 'lang.php';
         </button>
         <ul class="dropdown-menu" aria-labelledby="languageDropdown">
             <li><a href="?lang=en"><?php echo t('english'); ?> (EN)</a></li>
-            <li><a href="?lang=id"><?php echo t('indonesian'); ?> (ID)</a></li>
+            <li><a href="?lang=id"><?php echo t('indonesian'); ?> (IND)</a></li>
         </ul>
     </div>
 </div>
